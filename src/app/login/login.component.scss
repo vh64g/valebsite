@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Handwritten';
+    src: url('/assets/fonts/hw.ttf');
+  }
+
+body{
+    position:absolute;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(61, 121, 176) 11.3%, rgb(35, 66, 164) 91.1%); 
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+#logintext{
+    position: absolute;
+    font-family: Handwritten;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 1;
+    letter-spacing: normal;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
